@@ -1,20 +1,15 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "index.js",
-      "use": "@vercel/node"
+  "functions": {
+    "api/v1/**": {
+      "runtime": "@vercel/node",
+      "regions": ["bom1"]
     }
-  ],
+  },
   "routes": [
     {
       "src": "/api/(.*)",
       "dest": "index.js"
     }
-  ],
-  "functions": {
-    "api/v1/**": {
-      "regions": ["bom1"]
-    }
-  }
+  ]
 }
