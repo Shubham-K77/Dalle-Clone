@@ -50,51 +50,50 @@
 ### Steps
 
 1. **Clone the repository**
-
    ```bash
    git clone https://github.com/yourusername/imagica.git
    cd imagica
-
+   Install dependencies
    ```
 
-2. Install dependencies
-   npm install
-
-3. Set up environment variables
+bash
+Copy code
+npm install
+Set up environment variables
 
 Create a .env file in the project root and add the following keys:
 
+plaintext
+Copy code
 MONGO_URI=your_mongodb_connection_string
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 HUGGING_FACE_API_KEY=your_hugging_face_api_key
+Start the server
 
-4. Start the server
-   npm start
-
-5. Run frontend
+bash
+Copy code
+npm start
+Run frontend
 
 Change to the client directory and start the frontend.
-
+bash
+Copy code
 cd client
 npm install
 npm start
-
-## Usage
-
-1. Generate Images: Enter a text prompt, or use the "Surprise Me" feature to auto-generate prompts, then click "Generate" to see the AI-generated image.
-2. Save or Share: Once the image is generated, download it directly or share it within the Imagica community.
-3. Explore Recent Images: View the latest images created by others in the community.
-
-## API Endpoints
-
-1. GET /api/v1/images: Retrieve recent images in the community
-2. POST /api/v1/images/create: Upload a generated image to Cloudinary and save it in MongoDB
-3. POST /api/v1/generate: Generate a new image from a text prompt using Hugging Face API
-
-## Folder Structure
-
+Usage
+Generate Images: Enter a text prompt, or use the "Surprise Me" feature to auto-generate prompts, then click "Generate" to see the AI-generated image.
+Save or Share: Once the image is generated, download it directly or share it within the Imagica community.
+Explore Recent Images: View the latest images created by others in the community.
+API Endpoints
+GET /api/v1/images: Retrieve recent images in the community
+POST /api/v1/images/create: Upload a generated image to Cloudinary and save it in MongoDB
+POST /api/v1/generate: Generate a new image from a text prompt using Hugging Face API
+Folder Structure
+plaintext
+Copy code
 Imagica/
 ├── client/ # React frontend
 ├── server/ # Express backend
@@ -106,19 +105,15 @@ Imagica/
 │ └── server.js # Express server setup
 ├── README.md
 └── package.json
+Contributing
+We welcome contributions to Imagica! To contribute:
 
-## Contributing
-
-We welcome contributions to Imagica!
-To contribute:
-
-1. Fork the project.
-2. Create a feature branch (git checkout -b feature/YourFeature).
-3. Commit your changes (git commit -m 'Add Your Feature').
-4. Push to the branch (git push origin feature/YourFeature).
-5. Open a Pull Request.
-
-## License
-
+Fork the project.
+Create a feature branch (git checkout -b feature/YourFeature).
+Commit your changes (git commit -m 'Add Your Feature').
+Push to the branch (git push origin feature/YourFeature).
+Open a Pull Request.
+License
 Distributed under the MIT License. See LICENSE for more information.
+
 Enjoy creating with Imagica! 🌟
