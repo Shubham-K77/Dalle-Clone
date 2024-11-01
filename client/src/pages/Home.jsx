@@ -82,7 +82,7 @@ const Home = () => {
             <div className="lg:w-[25%] bg-white flex justify-center items-center hover:cursor-pointer lg:p-0 p-2">
               <IoSearch className="text-[2rem] text-gray-500" />
             </div>
-            <div className="lg:w-[50%] text-[0.90rem] lg:text-[1.25rem] text-gray-500 font-sans text-center lg:text-justify lg:mr-0 mr-6">
+            <div className="lg:w-[50%] text-[0.95rem] lg:text-[1.25rem] text-gray-500 font-sans text-center lg:text-justify lg:mr-0 mr-10">
               Planets Colliding Together
             </div>
             <div className="lg:h-[6.5vh] h-[7.5vh] w-[21vw] lg:w-[16vw] bg-green-600 shadow-sm p-2 rounded-md ml-2 text-[1rem] lg:text-[1.05rem] font-bold font-sans flex justify-center items-center text-white hover:bg-green-500 hover:cursor-pointer lg:mr-2 mr-2">
