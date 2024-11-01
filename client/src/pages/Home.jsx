@@ -72,14 +72,14 @@ const Home = () => {
       <Navbar />
       <div className="w-full flex flex-col justify-evenly items-start text-justify p-[1.25rem]">
         <div className="w-[100%] h-[200vh] lg:h-[120vh] bg-slate-900 mb-[2rem] rounded-md flex flex-col justify-start lg:items-start items-center p-2 shadow-xl">
-          <div className="w-full text-[1.55rem] lg:text-[2rem] flex justify-start items-center font-sans text-white m-[0.85rem] font-bold text-justify p-[1rem]">
+          <div className="w-full text-[1.55rem] lg:text-[2rem] flex justify-start items-center font-sans text-white m-[0.85rem] font-bold lg:text-justify text-left p-[1rem]">
             Imagica: Where Imagination Meets Reality!
           </div>
           <div className="w-[95%] lg:w-[50%] lg:h-[10vh] h-[10vh] bg-white mt-[2rem] lg:ml-[4rem] rounded-md flex lg:justify-around justify-start items-center">
             <div className="lg:w-[25%] bg-white flex justify-center items-center hover:cursor-pointer lg:p-0 p-2">
               <IoSearch className="text-[2rem] text-gray-500" />
             </div>
-            <div className="lg:w-[50%] text-[1.05rem] lg:text-[1.25rem] text-gray-500 font-sans text-justify">
+            <div className="lg:w-[50%] text-[1rem] lg:text-[1.25rem] text-gray-500 font-sans text-left lg:text-justify">
               Planets Colliding Together
             </div>
             <div className="h-[7.5vh] w-[21vw] lg:w-[18vw] bg-green-600 shadow-sm p-2 rounded-md ml-2 text-[1rem] lg:text-[1.05rem] font-bold font-sans flex justify-center items-center text-white hover:bg-green-500 hover:cursor-pointer lg:mr-2 mr-0">
@@ -100,7 +100,7 @@ const Home = () => {
               <div className="font-dancing text-[3.5rem] font-bold text-white mb-2 hover:text-yellow-500 hover:cursor-pointer">
                 Imagica
               </div>
-              <div className="font-roboto text-[0.9rem] lg:text-[1.05rem] text-white mb-2 p-2">
+              <div className="font-roboto text-[0.95rem] lg:text-[1.05rem] text-white mb-2 p-2">
                 Imagica is an innovative project that brings imagination to life
                 by leveraging the power of Hugging Face's AI models to convert
                 text into stunning visual imagery. With a simple input of
