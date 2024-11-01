@@ -31,7 +31,7 @@ const Create = () => {
     }
     try {
       const response = await axios.post(
-        "http://localhost:5555/api/v1/images/create/",
+        "https://imagica-api.vercel.app/api/v1/images/create/",
         { name: form.name, prompt: form.prompt, photo: form.photo }
       );
       if (!response) {

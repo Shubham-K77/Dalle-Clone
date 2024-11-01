@@ -19,7 +19,9 @@ const Home = () => {
     const fetchPosts = async () => {
       setLoading(true);
       try {
-        const response = await axios("http://localhost:5555/api/v1/images/");
+        const response = await axios(
+          "https://imagica-api.vercel.app/api/v1/images/"
+        );
         if (!response) {
           return enqueueSnackbar("Failed To Get Posts!", { variant: "error" });
         }

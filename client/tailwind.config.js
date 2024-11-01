@@ -7,6 +7,7 @@ export default {
         sans: ['"Inter"', "sans-serif"],
         dancing: ['"Dancing Script"', "cursive"],
         roboto: ['"Roboto"', "sans-serif"],
+        error: [' "Roboto Mono"', "monospace"],
       },
     },
   },
