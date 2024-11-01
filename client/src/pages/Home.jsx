@@ -72,8 +72,11 @@ const Home = () => {
       <Navbar />
       <div className="w-full flex flex-col justify-evenly items-start text-justify p-[1.25rem]">
         <div className="w-[100%] h-[200vh] lg:h-[120vh] bg-slate-900 mb-[2rem] rounded-md flex flex-col justify-start lg:items-start items-center p-2 shadow-xl">
-          <div className="w-full text-[1.55rem] lg:text-[2rem] flex justify-start items-center font-sans text-white m-[0.85rem] font-bold lg:text-justify text-left p-[1rem]">
-            Imagica: Where Imagination Meets Reality!
+          <div className="w-full text-[1.75rem] lg:text-[2rem] flex justify-start items-center font-roboto text-white mt-[0.85rem] font-bold lg:text-justify text-left p-[1rem] mb-0">
+            Imagica:
+          </div>
+          <div className="w-full text-[1.10rem] lg:text-[2rem] flex justify-start items-center font-error text-white mb-[0.85rem] font-bold lg:text-justify text-left p-[1rem] mt-[-1.5rem] gap-1">
+            Where Imagination Meets Reality!
           </div>
           <div className="w-[95%] lg:w-[50%] lg:h-[10vh] h-[10vh] bg-white mt-[2rem] lg:ml-[4rem] rounded-md flex lg:justify-around justify-start items-center">
             <div className="lg:w-[25%] bg-white flex justify-center items-center hover:cursor-pointer lg:p-0 p-2">
@@ -82,7 +85,7 @@ const Home = () => {
             <div className="lg:w-[50%] text-[1rem] lg:text-[1.25rem] text-gray-500 font-sans text-left lg:text-justify">
               Planets Colliding Together
             </div>
-            <div className="h-[7.5vh] w-[21vw] lg:w-[18vw] bg-green-600 shadow-sm p-2 rounded-md ml-2 text-[1rem] lg:text-[1.05rem] font-bold font-sans flex justify-center items-center text-white hover:bg-green-500 hover:cursor-pointer lg:mr-2 mr-0">
+            <div className="h-[7.5vh] w-[21vw] lg:w-[18vw] bg-green-600 shadow-sm p-2 rounded-md ml-2 text-[1rem] lg:text-[1.05rem] font-bold font-sans flex justify-center items-center text-white hover:bg-green-500 hover:cursor-pointer lg:mr-2 mr-2">
               Generate
             </div>
           </div>
