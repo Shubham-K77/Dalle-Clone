@@ -78,7 +78,7 @@ const Home = () => {
           <div className="w-full text-[1.10rem] lg:text-[2rem] flex justify-center items-center font-error text-white mb-[0.85rem] lg:mb-0 font-bold lg:text-justify text-center p-[1rem] mt-[-1.5rem]">
             Where Imagination Meets Reality!
           </div>
-          <div className="w-[95%] lg:w-[50%] lg:h-[12vh] h-[10vh] bg-white mt-[2rem] lg:ml-[4rem] rounded-md flex lg:justify-around justify-start items-center">
+          <div className="w-[95%] lg:w-[50%] lg:h-[12vh] h-[10vh] bg-white mt-[2rem] lg:ml-[4rem] rounded-md flex lg:justify-around justify-evenly items-center">
             <div className="lg:w-[25%] bg-white flex justify-center items-center hover:cursor-pointer lg:p-0 p-2">
               <IoSearch className="text-[2rem] text-gray-500" />
             </div>
