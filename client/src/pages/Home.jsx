@@ -72,20 +72,20 @@ const Home = () => {
       <Navbar />
       <div className="w-full flex flex-col justify-evenly items-start text-justify p-[1.25rem]">
         <div className="w-[100%] h-[200vh] lg:h-[120vh] bg-slate-900 mb-[2rem] rounded-md flex flex-col justify-start lg:items-start items-center p-2 shadow-xl">
-          <div className="w-full text-[1.75rem] lg:text-[2rem] flex justify-start items-center font-roboto text-white mt-[0.85rem] font-bold lg:text-justify text-left p-[1rem] mb-0">
+          <div className="w-full text-[2.25rem] lg:text-[2.75rem] flex justify-start lg:justify-center items-center font-roboto text-white mt-[0.85rem] font-bold lg:text-justify text-left p-[1rem] mb-0">
             Imagica:
           </div>
-          <div className="w-full text-[1.10rem] lg:text-[2rem] flex justify-start items-center font-error text-white mb-[0.85rem] font-bold lg:text-justify text-left p-[1rem] mt-[-1.5rem] gap-1">
+          <div className="w-full text-[1.10rem] lg:text-[2rem] flex justify-center items-center font-error text-white mb-[0.85rem] lg:mb-0 font-bold lg:text-justify text-center p-[1rem] mt-[-1.5rem]">
             Where Imagination Meets Reality!
           </div>
-          <div className="w-[95%] lg:w-[50%] lg:h-[10vh] h-[10vh] bg-white mt-[2rem] lg:ml-[4rem] rounded-md flex lg:justify-around justify-start items-center">
+          <div className="w-[95%] lg:w-[50%] lg:h-[12vh] h-[10vh] bg-white mt-[2rem] lg:ml-[4rem] rounded-md flex lg:justify-around justify-start items-center">
             <div className="lg:w-[25%] bg-white flex justify-center items-center hover:cursor-pointer lg:p-0 p-2">
               <IoSearch className="text-[2rem] text-gray-500" />
             </div>
-            <div className="lg:w-[50%] text-[1rem] lg:text-[1.25rem] text-gray-500 font-sans text-left lg:text-justify">
+            <div className="lg:w-[50%] text-[0.90rem] lg:text-[1.25rem] text-gray-500 font-sans text-center lg:text-justify lg:mr-0 mr-6">
               Planets Colliding Together
             </div>
-            <div className="h-[7.5vh] w-[21vw] lg:w-[18vw] bg-green-600 shadow-sm p-2 rounded-md ml-2 text-[1rem] lg:text-[1.05rem] font-bold font-sans flex justify-center items-center text-white hover:bg-green-500 hover:cursor-pointer lg:mr-2 mr-2">
+            <div className="lg:h-[6.5vh] h-[7.5vh] w-[21vw] lg:w-[16vw] bg-green-600 shadow-sm p-2 rounded-md ml-2 text-[1rem] lg:text-[1.05rem] font-bold font-sans flex justify-center items-center text-white hover:bg-green-500 hover:cursor-pointer lg:mr-2 mr-2">
               Generate
             </div>
           </div>
