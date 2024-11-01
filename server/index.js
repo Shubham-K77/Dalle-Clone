@@ -12,7 +12,11 @@ const url = process.env.mongoDBUrl;
 const app = express();
 //Middlewares
 app.use(express.json({ limit: "1mb" }));
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://imagica-eight.vercel.app",
+  })
+);
 app.use("/", router);
 app.use(notfound);
 app.use(errorHandle);
