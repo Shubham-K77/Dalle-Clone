@@ -9,8 +9,8 @@ const getRandomPrompt = (prompt) => {
   return randomPrompt;
 };
 
-const download_Image = (_id, photo) => {
-  fileSaver.saveAs(photo, `download-${_id}.jpeg`);
+const download_Image = (_id, image) => {
+  fileSaver.saveAs(image, `download-${_id}.jpeg`);
 };
 
 //Exports
