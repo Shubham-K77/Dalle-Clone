@@ -18,7 +18,7 @@ const Card = ({ _id, name, prompt, image }) => {
         <div className="w-full flex justify-around items-center">
           <div className="w-full flex justify-start items-center">
             <div
-              className="flex justify-center items-center w-[10.5%] lg:w-[12.25%] h-[5.75vh] lg:h-[6.05vh] bg-green-500 rounded-[50%] font-sans text-[1.75rem] lg:text-[2rem] text-white mt-[0.5rem] mb-[0.15rem] ml-[0.75rem] mr-[0.5rem] hover:bg-green-800 hover:cursor-pointer"
+              className="flex justify-center items-center w-[11.5%] lg:w-[12.25%] h-[5.5vh] lg:h-[6.05vh] bg-green-500 rounded-[50%] font-sans text-[1.75rem] lg:text-[2rem] text-white mt-[0.5rem] mb-[0.15rem] ml-[0.75rem] mr-[0.5rem] hover:bg-green-800 hover:cursor-pointer"
               title={name}
             >
               {letter}
