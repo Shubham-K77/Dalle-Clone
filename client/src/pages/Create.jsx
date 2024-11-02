@@ -38,7 +38,7 @@ const Create = () => {
         setLoading(false);
         return enqueueSnackbar("Image Upload Failed!", { variant: "error" });
       }
-      enqueueSnackbar("Image Successfully Created!", { variant: "success" });
+      enqueueSnackbar("Shared With The Community!", { variant: "success" });
       setLoading(false);
       setForm({
         name: "",
