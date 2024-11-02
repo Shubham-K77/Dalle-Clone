@@ -79,13 +79,13 @@ const Home = () => {
             Where Imagination Meets Reality!
           </div>
           <div className="w-[95%] lg:w-[50%] md:h-[12.25vh] md:text-left  lg:h-[12vh] h-[10vh] bg-white mt-[2rem] lg:ml-[4rem] rounded-md flex lg:justify-around justify-evenly items-center p-[1.25rem]">
-            <div className="lg:w-[25%] bg-white flex justify-center items-center hover:cursor-pointer lg:p-0 p-2">
+            <div className="w-[25%] lg:w-[25%] bg-white flex justify-center items-center hover:cursor-pointer lg:p-0 p-2">
               <IoSearch className="text-[2rem] text-gray-500" />
             </div>
-            <div className="lg:w-[50%] text-[1.05rem] lg:text-[1.25rem] text-gray-500 font-sans text-center lg:text-justify lg:mr-0 mr-10">
-              Planets Colliding Together
+            <div className="w-[50%] lg:w-[50%] text-[1.05rem] lg:text-[1.25rem] text-gray-500 font-sans text-center lg:text-justify lg:mr-0 mr-10">
+              Imagine
             </div>
-            <div className="lg:h-[6.5vh] h-[7.5vh] w-[21vw] lg:w-[16vw] bg-green-600 shadow-sm p-2 rounded-md ml-2 text-[1rem] lg:text-[1.05rem] font-bold font-sans flex justify-center items-center text-white hover:bg-green-500 hover:cursor-pointer lg:mr-2 mr-2">
+            <div className="lg:h-[7.5vh] h-[7.5vh] w-[22vw] lg:w-[16vw] bg-green-600 shadow-sm p-2 rounded-md ml-2 text-[1rem] lg:text-[1.05rem] font-bold font-sans flex justify-center items-center text-white hover:bg-green-500 hover:cursor-pointer lg:mr-2 mr-2">
               Generate
             </div>
           </div>

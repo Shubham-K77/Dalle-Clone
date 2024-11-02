@@ -111,8 +111,8 @@ const Create = () => {
   return (
     <div className="w-full flex flex-col justify-evenly items-center overflow-x-hidden">
       <Navbar />
-      <div className="w-full flex flex-col justify-evenly items-start text-justify p-[1.25rem] pl-[1.75rem] lg:pl-[2.5rem]">
-        <h1 className="text-[1.25rem] font-bold font-sans mb-2">
+      <div className="w-full flex flex-col justify-evenly items-start p-[1.25rem] pl-[1.75rem] lg:pl-[2.5rem]">
+        <h1 className="text-[1.25rem] font-bold font-sans mb-2 text-left">
           Sculpting the Boundaries of Creativity
         </h1>
         <p className="text-[0.95rem] text-gray-500 text-justify">
