@@ -15,6 +15,7 @@ app.use(express.json({ limit: "1mb" }));
 app.use(
   cors({
     origin: "https://imagica-eight.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   })
 );
 app.use("/", router);
