@@ -11,8 +11,9 @@ const getRandomPrompt = (prompt) => {
 };
 
 const download_Image = async (_id, image) => {
+  const secureImageUrl = image.replace("http://", "https://");
   try {
-    const response = await fetch(image, { mode: "cors" });
+    const response = await fetch(secureImageUrl, { mode: "cors" });
     if (!response.ok) throw new Error("Failed to fetch image");
     const blob = await response.blob();
     fileSaver.saveAs(blob, `download-${_id}.jpeg`);
